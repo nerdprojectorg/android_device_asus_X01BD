@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "X01BDNoCutoutOverlay",
+    theme: "DisplayCutoutNoCutout",
+    product_specific: true,
+}

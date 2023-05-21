@@ -1,6 +1,4 @@
 #
-# Copyright (C) 2020 The LineageOS Project
-#
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -17,7 +15,7 @@ TARGET_OTA_ASSERT_DEVICE := ASUS_X01BD,X01BD
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := asus/X01BD_defconfig
